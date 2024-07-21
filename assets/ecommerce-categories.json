@@ -1,0 +1,35 @@
+[
+    {
+        "title": "keyboard",
+        "descrition": "descrition",
+        "createdAt": "2024-04-13 17:08:36.433261",
+        "updateAt":"2024-04-13 17:08:36.433261",
+        "id": "11fad043-4f8c-40cd-9fa2-f7eac003b5b6",
+        "addedById": "422a976a-0b85-49b3-afc1-f41faecc5259"
+    },
+    {
+        "title": "mouse",
+        "descrition": "all",
+        "createdAt": "2024-04-13 17:08:36.433261",
+        "updateAt":"2024-04-13 17:08:36.433261",
+        "id": "a6305b43-c886-4a18-980f-31f51ca48700",
+        "addedById": "422a976a-0b85-49b3-afc1-f41faecc5259"
+    },
+    {
+        "title": "monitor",
+        "descrition": "all",
+        "createdAt": "2024-04-13 17:08:36.433261",
+        "updateAt":"2024-04-13 17:08:36.433261",
+        "id": "b6e3d243-0526-48b5-9ece-e13f495d5148",
+        "addedById": "422a976a-0b85-49b3-afc1-f41faecc5259"
+    },
+    {
+        "title": "smartphone",
+        "descrition": "descrition",
+        "createdAt": "2024-04-13 17:08:36.433261",
+        "updateAt":"2024-04-13 17:08:36.433261",
+        "id": "be9b9e60-72f4-4a17-850e-69b7070e7ace",
+        "addedById": "422a976a-0b85-49b3-afc1-f41faecc5259"
+    }
+]
+

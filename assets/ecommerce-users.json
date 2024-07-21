@@ -1,0 +1,53 @@
+[
+    {
+        "name":"Danilo Maccari",
+        "email":"maccari78@gmail.com",
+        "password":"n0m3nN3sc10",
+        "roles":"admin",
+        "createdAt":"2024-04-13 16:14:59.968659",
+        "updatedAt":"2024-04-13 16:14:59.968659",
+        "id":"422a976a-0b85-49b3-afc1-f41faecc5259",
+        "birthdate":"1978-07-12"
+    },
+    {
+        "name":"Margot Robbie",
+        "email":"margot@gmail.com",
+        "password":"m4rgot",
+        "roles":"user",
+        "createdAt":"2024-04-13 16:26:39.703243",
+        "updatedAt":"2024-04-13 16:26:39.703243",
+        "id":"4273b788-fd7b-4d5e-81e0-90436b34159a",
+        "birthdate":"1990-07-02"
+    },
+    {
+        "name":"Matt Damon",
+        "email":"matt@gmail.com",
+        "password":"m4ttd",
+        "roles":"user",
+        "createdAt":"2024-04-13 16:28:59.111618",
+        "updatedAt":"2024-04-13 16:28:59.111618",
+        "id":"7133ff18-2bd2-4e61-a544-8db0153ba8fa",
+        "birthdate":"1970-10-08"
+    },
+    {
+        "name":"Keanu Reeves",
+        "email":"keanu@gmail.com",
+        "password":"k3anu",
+        "roles":"user",
+        "createdAt":"2024-04-13 16:25:47.5813",
+        "updatedAt":"2024-04-13 16:25:47.5813",
+        "id":"a9e8567f-b341-4358-b735-82b894511d25",
+        "birthdate":"1964-09-02"
+    },
+    {
+        "name":"Charlize Theron",
+        "email":"charlize@gmail.com",
+        "password":"ch4rlize",
+        "roles":"user",
+        "createdAt":"2024-04-13 16:24:50.193914",
+        "updatedAt":"2024-04-13 16:24:50.193914",
+        "id":"ad2eabff-d7ce-4a79-bd07-78acdee551e2",
+        "birthdate":"1975-08-07"
+    }
+
+]

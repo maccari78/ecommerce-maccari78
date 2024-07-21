@@ -1,0 +1,76 @@
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { ShippingEntity } from 'src/orders/entities/shipping.entity';
+
+@Injectable()
+export class ShippingsSeeder {
+    constructor(
+        @InjectRepository(ShippingEntity)
+        private readonly shippingsRepository: Repository<ShippingEntity>,
+    ) { }
+
+    async seed() {
+        // console.log('Seeding shippings...');
+        const shippingsData = [
+            {
+                phone: "+61 2 5555 6789",
+                name: "Margot Robbie",
+                address: "234 Hillside Road",
+                city: "Sídney",
+                postCode: "2000",
+                state: "New south Wales",
+                country: "Australia",
+                id: "b6e794f6-2459-47e1-a398-24f8ebb776d3"
+            },
+            {
+                phone: "+1 (617) 555-7890",
+                name: "Matt Damon",
+                address: "789 Pine Avenue",
+                city: "Boston",
+                postCode: "02101",
+                state: "Massachusetts",
+                country: "United States",
+                id: "cbd99177-320d-4fa2-9dcc-171dd51870eb"
+            },
+            {
+                phone: "+1 (212) 555-4567",
+                name: "Keanu Reeves",
+                address: "456 Maple Street",
+                city: "New York",
+                postCode: "10001",
+                state: "New York",
+                country: "United States",
+                id: "e024691e-3de3-483c-8503-22d7bd42d864"
+            },
+            {
+                phone: "+1 (310) 555-0123",
+                name: "Charlize Theron",
+                address: "123 Ocean Avenue",
+                city: "Los Angeles",
+                postCode: "90001",
+                state: "California",
+                country: "United States",
+                id: "e729dc75-4472-4c1e-b133-27e4020bec85"
+            },
+            {
+                phone: "+54 (291) 444-4264",
+                name: "Danilo Maccari",
+                address: "Ezequiel Martinez Estrada 619",
+                city: "Bahia Blanca",
+                postCode: "8000",
+                state: "Buenos Aires",
+                country: "Argentina",
+                id: "477613a5-5927-4a59-a34b-782773ef0bdb"
+            }
+        ];
+
+        for (const shippingData of shippingsData) {
+            const existingShipping = await this.shippingsRepository.findOne({ where: { id: shippingData.id } });
+
+            if (!existingShipping) {
+                await this.shippingsRepository.save(shippingData);
+            }
+        }
+    }
+}
