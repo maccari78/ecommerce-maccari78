@@ -12,11 +12,11 @@ export const dataSourceOptions: DataSourceOptions = {
     // database: process.env.DB_NAME,
 
     // To run DB from Docker
-    host: process.env.DATABASE_HOST,
-    port: Number(process.env.DATABASE_PORT),
-    username: process.env.DATABASE_USERNAME,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE_NAME,
+    // host: process.env.DATABASE_HOST,
+    // port: Number(process.env.DATABASE_PORT),
+    // username: process.env.DATABASE_USERNAME,
+    // password: process.env.DATABASE_PASSWORD,
+    // database: process.env.DATABASE_NAME,
 
     // To run from Railway
     url: process.env.DATABASE_URL,
