@@ -19,5 +19,7 @@
     "noFallthroughCasesInSwitch": false,
     "types": ["babel__generator", "node", "multer"],
     "typeRoots": ["node_modules/@types", "path/to/your/custom/types"]
-  }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
